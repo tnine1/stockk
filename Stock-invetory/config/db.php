@@ -2,7 +2,7 @@
 <?php
 date_default_timezone_set('Africa/Kigali');
 
-$conn = mysqli_connect("localhost", "root", "", "lechic_bms", 3307);
+$conn = mysqli_connect("localhost", "root", "", "lechic_bms");
 
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
